@@ -94,7 +94,10 @@ namespace html_templates_downloader
                             resourceLocalPath = "templates/" + resourceLocalPath.Replace("default", "classic");
                         }
 
-                        // Add the app path
+                        // Add the src folder to the local resource file
+                        resourceLocalPath = resourceLocalPath.Replace("templates/", "templates/src/");
+
+                        // Add the app path to the local resource file
                         resourceLocalPath = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), resourceLocalPath);
 
                         if (!File.Exists(resourceLocalPath))
@@ -118,8 +121,11 @@ namespace html_templates_downloader
                                       "https://login.microsoftonline.com/static/tenant/templates/classic/img/");
                     }
 
-                    // remove the static tenant
+                    // Remove the static tenant
                     reply = reply.Replace("/static/tenant/", "/");
+
+                    // Add the src folder to the path
+                    reply = reply.Replace("/templates/", "/templates/src/");
 
                     File.WriteAllText(localpath, reply);
                 }
