@@ -4,9 +4,9 @@ In Azure AD B2C, you can craft your users' identity experiences so that the page
 
 This repo contains the following resources that can help you with the Azure AD B2C customization. 
 
-- [Classic template](tree/main/templates/classic)
-- [Ocean Blue template](tree/main/templates/AzureBlue)
-- [Slate Gray template](tree/main/templates/MSA)
-- [Template resources](tree/main/templates/src) such as images, fonts etc.
+- [Classic template](/blob/main/tree/main/templates/classic)
+- [Ocean Blue template](/blob/main/tree/main/templates/AzureBlue)
+- [Slate Gray template](/blob/main/tree/main/templates/MSA)
+- [Template resources](/blob/main/tree/main/templates/src) such as images, fonts etc.
 - [The source code to download the template](tree/main/source-code)
 
