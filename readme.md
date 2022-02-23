@@ -10,19 +10,19 @@ This repo contains the following resources that can help you with the Azure AD B
 - [Template resources](templates/src) such as images, fonts etc.
 - [The source code to download the template](source-code)
 
-### Ocean Blue
+## Ocean Blue
 
 Example of the Ocean Blue template rendered on sign up sign in page:
 
 ![Ocean Blue template screenshot](https://docs.microsoft.com/azure/active-directory-b2c/media/customize-ui/template-ocean-blue.png)
 
-### Slate Gray
+## Slate Gray
 
 Example of the Slate Gray template rendered on sign up sign in page:
 
 ![Slate Gray template screenshot](https://docs.microsoft.com/azure/active-directory-b2c/media/customize-ui/template-slate-gray.png)
 
-### Classic
+## Classic
 
 Example of the Classic template rendered on sign up sign in page:
 
